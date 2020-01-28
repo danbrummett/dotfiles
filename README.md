@@ -1,2 +1,1 @@
-# dotfiles
-custom configs
+# DXB6828Configs

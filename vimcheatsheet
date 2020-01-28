@@ -1,0 +1,30 @@
+let mapleader=" "
+
+" remap split movement keys
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+" remap split resizing
+nnoremap <leader>e <C-W><C-=>
+nnoremap <leader>a :vertical resize +20<CR>
+nnoremap <leader>d :vertical resize -20<CR>
+nnoremap <leader>w :resize +10<CR>
+nnoremap <leader>s :resize -10<CR>
+
+" open directory split
+nnoremap <leader>o :20Vex<CR>
+nnoremap <leader>O :20Sex<CR>
+
+:copen - open quick fix window
+:ccl - close quick fix window
+:vimgrep pattern file - ex :vimgrep echo %
+
+marks: 
+	ma : "set mark a here"
+	`a : "go to mark a"
+	'a : "start of line of mark a"
+macros: 
+	qa : "start recording for macro a"
+	q  : in regular mode "stop recording"
+	@a : "play back a"

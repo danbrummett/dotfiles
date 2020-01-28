@@ -1,0 +1,16 @@
+Session
+:new -t asdf        new session with name
+:kill-ses -t asdf   kill session with name
+s                   Select a new session for the attached client interactively.
+$                   name session
+
+Window
+c                   Create a new window.
+&                   Kill the current window.
+,                   Rename the current window.
+w                   Choose the current window interactively.
+
+Pane
+!                   Break the current pane out of the window.
+x                   Kill the current pane.
+z                   Toggle zoom state of the current pane.
